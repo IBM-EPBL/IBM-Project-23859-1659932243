@@ -1,0 +1,127 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, Helvetica,sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: url('https://images.wallpaperscraft.com/image/single/heart_melody_music_light_88521_300x168.jpg');
+}
+
+
+
+/* Website Title */
+.container {
+	padding: 30px;
+	position: relative;
+	background-size: 500% 500%;
+	background-color: #00004d;
+}
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.container-heading{
+    margin: 0;
+}
+
+.heading_font {
+	color: #ffffff;
+	font-family: "Times New Roman", cursive;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.description p{
+	color: #ffffff;
+    font-style: italic;
+    font-size: 14px;
+    margin: -5px 0 0;
+}
+
+/* Text Area */
+.ml-container{
+    margin: 30px 0;
+	flex: 1 0 auto;
+
+}
+
+.form {
+	text-align: center;
+	width: 250px;
+	height: 25px;
+	margin-bottom: 5px;
+	
+}
+
+input[type=text], select {
+    width:45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+	border: 2px solid #00004d;
+	border-radius: 8px;
+    box-sizing: border-box;
+	
+}
+
+label {
+	display: inline block;
+	width: 200px;
+	font-weight: bold;
+	font-size: 150px;
+	text-align: center;
+	font: italic bold 20px/1 "Calibri", sans-serif ;
+	float: left;
+	color: #00004d;
+}
+
+/* Predict Button */
+.my-cta-button {
+	background-color: #00004d;
+	border: #00004d;
+	color: #ffffff;
+	text-align: center; 
+	padding: 10px 36px;
+	text-decoration: none;
+	border-radius: 8px;
+	;
+}
+
+.my-cta-button:hover{
+    background-color: #3366ff;
+    border: 2px solid #46424b;
+}
+
+.my-cta-button:active{
+    box-shadow: 0 0;
+}
+
+/* Contact */
+.contact-icon{
+	color: #ffffff;
+	padding: 7px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+
+ 
+
